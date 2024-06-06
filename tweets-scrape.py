@@ -11,13 +11,13 @@ import pandas as pd
 web = "https://twitter.com/"
 
 # Path to the chromedriver executable
-path = r"C:\Users\Hannan Poonawala\OneDrive\Desktop\AMAAN\WebScrape\chromedriver-win64\chromedriver-win64\chromedriver.exe"
+path = r"your chromedriver file path\chromedriver.exe"
 
 # Initialize the Chrome options
 chrome_options = Options()
 
 # Set the desired user agent
-user_agent = "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36"
+user_agent = "your desired user agent"
 chrome_options.add_argument(f"user-agent={user_agent}")
 
 
@@ -127,7 +127,7 @@ df_tweets = pd.DataFrame(
      })
 
 # Save the DataFrame to a CSV file
-df_tweets.to_csv(r"C:\Users\Hannan Poonawala\OneDrive\Desktop\AMAAN\WebScrape\PROJECTS\TWITTER\tweets-all.csv", index=False)
+df_tweets.to_csv("tweets.csv", index=False)
 
 # Print the DataFrame
 print(df_tweets)
