@@ -7,7 +7,6 @@ This project is a Twitter tweets scraper built using Selenium and Python. The sc
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [License](#license)
 - [Contributing](#contributing)
 - [Contact](#contact)
 
@@ -70,10 +69,6 @@ This project is a Twitter tweets scraper built using Selenium and Python. The sc
     ├── tweets.csv # Output file with collected tweets data
     └── README.md # Project documentation
 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
